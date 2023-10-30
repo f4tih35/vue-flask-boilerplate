@@ -1,0 +1,53 @@
+# Python (Backend)
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+backend/db.sqlite
+backend/*.pyc
+backend/*.pyo
+
+# Virtual Environment
+venv/
+
+# Flask session files
+instance/
+
+# Flask file-uploads directory
+uploads/
+
+# Environment variables
+.env
+
+# Node.js (Frontend)
+node_modules/
+npm-debug.log
+frontend/node_modules
+frontend/dist
+frontend/*.log
+frontend/package-lock.json
+
+# IDE and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.suo
+*.user
+*.bak
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Directories to keep empty
+.gitkeep
